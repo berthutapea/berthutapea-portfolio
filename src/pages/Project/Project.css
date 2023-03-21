@@ -16,6 +16,7 @@
 .item img {
     opacity: 1;
     transition: opacity 0.35s;
+    object-fit: cover;
 }
 
 
