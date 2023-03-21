@@ -21,7 +21,7 @@ const Footer = () => {
           </a>
           <a
             className="inline-block mx-2"
-            href="https://www.linkedin.com/in/gilberthutapea"
+            href="https://linkedin.com/in/gilberthutapea"
             target="_blank"
             rel="noopener noreferrer"
           >
