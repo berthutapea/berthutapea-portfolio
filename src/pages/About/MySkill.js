@@ -7,7 +7,6 @@ import {
   FaReact,
   FaBootstrap,
   FaGithub,
-  FaFigma,
 } from "react-icons/fa";
 import {
   SiJavascript,
@@ -15,6 +14,7 @@ import {
   SiExpress,
   SiMongodb,
   SiAdobephotoshop,
+  SiFirebase,
 } from "react-icons/si";
 import man from "../../assets/man.json";
 
@@ -37,7 +37,7 @@ const MySkill = () => {
   const tools = [
     { title: "MongoDB", icon: <SiMongodb className="text-green-500" /> },
     { title: "GitHub", icon: <FaGithub className="text-black" /> },
-    { title: "Figma", icon: <FaFigma className="" /> },
+    { title: "Firebase", icon: <SiFirebase className="text-yellow-500" /> },
     {
       title: "Photoshop",
       icon: <SiAdobephotoshop className="text-cyan-800" />,
@@ -58,7 +58,7 @@ const MySkill = () => {
         My <span className="text-primary">Skills</span>
       </h1>
       <div className="flex flex-col md:flex-row items-center justify-evenly my-8">
-        
+
         <div>
           <h2 className="text-cyan-500 text-xl font-semibold">Languages:</h2>
           <div className="flex flex-wrap mb-4">

@@ -9,7 +9,7 @@ import {
   FaLocationArrow,
   FaLinkedin,
   FaGithubSquare,
-  FaFacebookSquare,
+  FaTwitterSquare,
   FaInstagramSquare,
 } from "react-icons/fa";
 import { MdEmail, MdSend } from "react-icons/md";
@@ -126,7 +126,7 @@ const Contact = () => {
               className="primary-button"
             >
               <span>Send</span>
-              <span><MdSend/></span>
+              <span><MdSend /></span>
             </button>
           </form>
         </motion.div>
@@ -160,28 +160,28 @@ const Contact = () => {
             <h3 className="text-xl text-neutral">Social</h3>
             <div className="bg-gray-400 w-10 h-[2px] mx-4"></div>
             <a
-              href="https://www.linkedin.com/in/itsproali"
+              href="https://linkedin.com/in/gilberthutapea"
               target="blank"
               className="text-3xl text-neutral hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
             >
               <FaLinkedin></FaLinkedin>
             </a>
             <a
-              href="https://www.github.com/itsproali"
+              href="https://www.github.com/berthutapea"
               target="blank"
               className="text-3xl text-neutral hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
             >
               <FaGithubSquare></FaGithubSquare>
             </a>
             <a
-              href="https://www.facebook.com/itsproali"
+              href="https://twitter.com/GilbertHutapeaa"
               target="blank"
               className="text-3xl text-neutral hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
             >
-              <FaFacebookSquare></FaFacebookSquare>
+              <FaTwitterSquare></FaTwitterSquare>
             </a>
             <a
-              href="https://www.instagram.com/itsproali"
+              href="https://www.instagram.com/bethup97/"
               target="blank"
               className="text-3xl text-neutral hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
             >

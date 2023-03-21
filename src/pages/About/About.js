@@ -82,19 +82,17 @@ const About = () => {
             </p>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-4 mt-4">
               <h2 className="font-medium">
-                <span className="mr-4 text-primary">Name: </span>Mohammad Ali
+                <span className="mr-4 text-primary">Name : </span>Gilbert Hutapea
               </h2>
               <h2 className="font-medium">
-                <span className="mr-4 text-primary">Phone: </span>+880
-                1884622861
+                <span className="mr-4 text-primary">Phone : </span>+62 823 6148 4992
               </h2>
               <h2 className="font-medium">
-                <span className="mr-4 text-primary">Email: </span>
-                itsproali@gmail.com
+                <span className="mr-4 text-primary">Email : </span>
+                berthutapea@gmail.com
               </h2>
               <h2 className="font-medium">
-                <span className="mr-4 text-primary">Address: </span>Sarulia,
-                Demra, Dhaka
+                <span className="mr-4 text-primary">Address : </span>Karawang, Jawa Barat, Indonesia
               </h2>
               <a
                 // href="https://drive.google.com/file/d/1qVQ1OLO-5RxHy1rwbe5Ib9igCTfeO99f/view?usp=sharing"
