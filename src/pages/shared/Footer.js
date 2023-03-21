@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="flex items-center justify-center mb-6">
           <a
             className="inline-block mx-2"
-            href="https://www.Twitter.com/itsproali"
+            href="https://twitter.com/GilbertHutapeaa"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -21,7 +21,7 @@ const Footer = () => {
           </a>
           <a
             className="inline-block mx-2"
-            href="https://www.linkedin.com/in/itsproali"
+            href="https://www.linkedin.com/in/gilberthutapea"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -29,7 +29,7 @@ const Footer = () => {
           </a>
           <a
             className="inline-block mx-2"
-            href="https://www.github.com/itsproali"
+            href="https://www.github.com/berthutapea"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -37,7 +37,7 @@ const Footer = () => {
           </a>
           <a
             className="inline-block mx-2"
-            href="https://www.instagram.com/itsproali"
+            href="https://www.instagram.com/bethup97/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -47,7 +47,7 @@ const Footer = () => {
         <div className="hidden  md:flex items-center justify-center mb-6 flex-wrap">
           <a
             className="text-xl inline-bloc mx-6 text-neutral"
-            href="http://fiverr.com/mdaligd"
+            // href="http://fiverr.com/mdaligd"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -55,7 +55,7 @@ const Footer = () => {
           </a>
           <a
             className="text-xl inline-bloc mx-6 text-neutral"
-            href="http://upwork.com/itsproali"
+            // href="http://upwork.com/itsproali"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -63,7 +63,7 @@ const Footer = () => {
           </a>
           <a
             className="text-xl inline-bloc mx-6 text-neutral"
-            href="http://freelancer.com/u/itsproali"
+            // href="http://freelancer.com/u/itsproali"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -71,7 +71,7 @@ const Footer = () => {
           </a>
           <a
             className="text-xl inline-bloc mx-6 text-neutral"
-            href="https://themeforest.net/user/itsproali"
+            // href="https://themeforest.net/user/itsproali"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -79,7 +79,7 @@ const Footer = () => {
           </a>
           <a
             className="text-xl inline-bloc mx-6 text-neutral"
-            href="https://remotehub.com/itsproali"
+            // href="https://remotehub.com/itsproali"
             target="_blank"
             rel="noopener noreferrer"
           >
