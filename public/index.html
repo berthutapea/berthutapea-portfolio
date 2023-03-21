@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description"
+    content="I am Gilbert Hutapea. A passionate Front end Developer with having experience in React, Redux, JavaScript, HTML, CSS, NodeJS, ExpressJS, MongoDB, and many more" />
+  <meta name="author" content="Gilbert Hutapea (berthutapea)" />
+  <meta name="keywords"
+    content="Gilbert Hutapea, Front-end Developer in Indonesia, React Developer in Indonesia JavaScript Developer in Indoneisa, Web Developer in Indonesia, MERN-stack Developer in Indonesia, Graphic Designer, Sekolah Tinggi Teknologi Informatika Sony Sugema, Student of STTISS in Indonesia, Computer Engineer, Software Engineer">
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <title>Gilbert Hutapea | Portfolio</title>
+
+  <style>
+    #loader-container {
+      background-color: #212121;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 999999;
+    }
+
+    .loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 160px;
+      width: 170px;
+      position: relative;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .loading_circle {
+      border: 5px transparent solid;
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      border-radius: 69%;
+    }
+
+    .loading_blue {
+      top: 0px;
+      border-top: 5px lightblue solid;
+      animation-delay: 4s;
+      animation: blue_animation 1.5s infinite;
+    }
+
+    .loading_blue:after {
+      position: absolute;
+      content: "";
+      width: 10px;
+      height: 10px;
+      background: lightblue;
+      border-radius: 69%;
+      right: 5px;
+      top: 10px;
+      box-shadow: 0px 0px 20px lightblue;
+    }
+
+    .loading_blue:before {
+      content: " ";
+      width: 5px;
+      height: 5px;
+      position: absolute;
+      background: lightblue;
+      top: 8.8px;
+      left: 9px;
+      border-radius: 69%;
+    }
+
+    .loading_coral {
+      left: 0px;
+      bottom: 0px;
+      border-top: 5px #FD5857 solid;
+      animation: coral_animation 1.5s infinite;
+    }
+
+    .loading_coral:after {
+      position: absolute;
+      content: "";
+      width: 10px;
+      height: 10px;
+      background: #FD5857;
+      border-radius: 69%;
+      right: 5px;
+      top: 10px;
+      box-shadow: 0px 0px 20px #FD5857;
+    }
+
+    .loading_coral:before {
+      content: " ";
+      width: 5px;
+      height: 5px;
+      position: absolute;
+      background: #FD5857;
+      top: 8.8px;
+      left: 9px;
+      border-radius: 69%;
+    }
+
+    .loading_orange {
+      right: 0px;
+      bottom: 0px;
+      border-top: 5px #F79D41 solid;
+      animation: orange_animation 1.5s infinite;
+    }
+
+    .loading_orange:after {
+      position: absolute;
+      content: "";
+      width: 10px;
+      height: 10px;
+      background: #F79D41;
+      border-radius: 69%;
+      right: 5px;
+      top: 10px;
+      box-shadow: 0px 0px 20px #F79D41;
+    }
+
+    .loading_orange:before {
+      content: " ";
+      width: 5px;
+      height: 5px;
+      position: absolute;
+      background: #F79D41;
+      top: 8.8px;
+      left: 9px;
+      border-radius: 69%;
+    }
+
+    @keyframes blue_animation {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes coral_animation {
+      0% {
+        transform: rotate(240deg);
+      }
+
+      100% {
+        transform: rotate(600deg);
+      }
+    }
+
+    @keyframes orange_animation {
+      0% {
+        transform: rotate(120deg);
+      }
+
+      100% {
+        transform: rotate(480deg);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root">
+    <div id="loader-container">
+      <div className="loading">
+        <div className="loading_circle loading_blue"></div>
+        <div className="loading_circle loading_coral"></div>
+        <div className="loading_circle loading_orange"></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

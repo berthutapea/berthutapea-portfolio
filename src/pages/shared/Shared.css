@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.font-lobster {
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+}
+
+.parent {
+    padding-right: 8%;
+    padding-left: 8%;
+}
+
+@media only screen and (max-width: 600px) {
+    .parent {
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+}
+
+
+.visible {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 40;
+    height: 4rem;
+    transition: 0.3s linear;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    /* background-color: transparent; */
+    /* padding: 0 7%; */
+}
+
+.nav-hidden {
+    top: -80px;
+}

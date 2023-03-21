@@ -1,0 +1,61 @@
+.primary-button {
+    padding: 8px 12px;
+    font-weight: 600;
+    border-radius: 6px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #FF651C;
+    cursor: pointer;
+    background-color: #FF651C;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.primary-button span {
+    z-index: 1;
+    transition: all 0.3s ease-out;
+    margin: 0 5px;
+}
+
+.primary-button::after,
+.primary-button::before {
+    width: 0%;
+    height: 0%;
+    content: "";
+    position: absolute;
+    border-radius: 100%;
+}
+
+.primary-button::after {
+    transition: all 0.5s ease;
+    background-color: #313131;
+}
+
+.primary-button::before {
+    transition: all 0.5s ease-out;
+    background: #ec743c;
+}
+
+.primary-button:hover {
+    color: #FF651C;
+    transform: translateY(-5px);
+}
+
+.primary-button:hover:after,
+.primary-button:hover:before {
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+}
+
+.primary-button:hover:after {
+    transition: all 0.7s ease-in;
+}
+
+.primary-button:hover:before {
+    transition: all 0.5s ease-in;
+}
