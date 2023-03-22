@@ -87,6 +87,14 @@ const Footer = () => {
           </a>
           <a
             className="text-xl inline-bloc mx-6 text-neutral"
+            href="https://dribbble.com/berthutapea"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Dribbble
+          </a>
+          <a
+            className="text-xl inline-bloc mx-6 text-neutral"
             // href="https://drive.google.com/file/d/1qVQ1OLO-5RxHy1rwbe5Ib9igCTfeO99f/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
