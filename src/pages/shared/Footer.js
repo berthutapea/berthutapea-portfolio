@@ -63,7 +63,7 @@ const Footer = () => {
           </a>
           <a
             className="text-xl inline-bloc mx-6 text-neutral"
-            // href="http://freelancer.com/u/itsproali"
+            href="http://freelancer.com/u/berthutapea"
             target="_blank"
             rel="noopener noreferrer"
           >
