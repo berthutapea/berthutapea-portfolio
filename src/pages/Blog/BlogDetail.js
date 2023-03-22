@@ -6,7 +6,6 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { FiExternalLink, FiLinkedin, FiGlobe } from "react-icons/fi";
-// import { SiLinkedin, SiMedium } from "react-icons/si";
 import {
   EmailShareButton,
   EmailIcon,
