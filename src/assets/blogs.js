@@ -1,17 +1,17 @@
 const blogs = [
   {
     _id: 1,
-    title: "Basics of Redux & React Redux",
-    path: "basics-of-redux-react-redux",
+    title: "Introduction to MERN Stack Developer",
+    path: "introduction-to-mern-stack-developer",
     date: "21 Oct 2022",
-    img: "https://res.cloudinary.com/itsproali/image/upload/v1667563043/Portfolio/redux_g8mpif.jpg",
-    medium_link:
-      "https://medium.com/@itsproali/basics-of-redux-react-redux-b98112b88991",
+    img: "https://res.cloudinary.com/du541igfh/image/upload/v1679520807/Blog%20Portfolio%20Gilbert/blog-01_mqx2sc.jpg",
+    website_link:
+      "https://msnproduction.com/",
     linkedin_link:
-      "https://www.linkedin.com/posts/itsproali_basics-of-redux-react-redux-activity-6960961422314942464-HU4t",
-    tags: ["redux", "react-redux", "basic-redux"],
+      "https://www.linkedin.com/company/msnproduction/mycompany/",
+    tags: ["#mern", "#mernstackdeveloper", "#mongodb", "#expressjs", "#reactjs", "#nodejs", "#introductionmern"],
     description:
-      "Redux is a predictable, open-source state container for javascript applications. Redux makes it more accessible to manage states in a big project and makes the application faster than expected. \n Well, A large application has many kinds of states, which connect one component to other components. It is very complicated to manage and handle states without using the redux. In redux, a state can be used from any parent or child component. \n Let’s introduce the principal workflow of redux. \n Action is the very first step of redux. Action is a function, which returns an Object. Most of the time it has two data. These are “type” and “payload”. Type declare what will do the state and payload contain the data which we want to add or manage. \n Reducer is the second step of working with redux. Reducer is also a function. The reducer has two arguments, “state” and “action”. A state is nothing other than it takes an initial state. And the action takes the action which we previously created. In the inner reducer function, it returns an order by checking the condition of the type of action. \n Store is the global state of an application. It is stored in an Object tree with a single store. A state can be used for any component from the store. To do that App.js should be wrapped with a “Provider” which passes the store. \n Dispatch is a way to use the states in our application. There is a hook called “useDispatch” which comes from “React Redux”. We would use this to call for action and forward the state management process. \n Thank you so much for taking your time. I hope you have gained a piece of basic knowledge about redux and how it works.",
+      "MERN stack is a popular combination of technologies used to develop web applications. It comprises four open-source technologies: MongoDB, ExpressJS, ReactJS, and NodeJS. Together, these technologies provide a comprehensive platform for building high-performance web applications. \n MongoDB is a document-based NoSQL database that stores data in flexible, JSON-like documents. It provides a scalable and high-performing database that can handle large amounts of data with ease. \n ExpressJS is a flexible and robust web application framework for NodeJS. It provides a simple and easy-to-use API that makes it easy to build web applications. \n ReactJS is a front-end JavaScript library used for building user interfaces. It is fast, efficient, and provides a simple and intuitive way to create reusable UI components. \n NodeJS is a JavaScript runtime environment that enables developers to build scalable and high-performing server-side applications. It uses an event-driven, non-blocking I/O model that makes it ideal for building real-time web applications. \n Together, these four technologies provide a full-stack platform for building web applications. Developers can use MERN stack to build complex and scalable applications, from simple web pages to complex, data-intensive applications. \n MERN stack provides several advantages over other web development technologies. Here are some of the main advantages: \n 1. Full-stack platform: MERN stack provides a comprehensive platform for building web applications, from the front-end to the back-end. This eliminates the need to use multiple technologies, which can be time-consuming and complicated. \n 2. High-performance: MERN stack is designed to be high-performing and scalable, making it ideal for building complex and data-intensive applications. \n 3. Easy to learn: MERN stack is based on popular and widely-used technologies, which means that it is easy to learn and has a large community of developers. \n 4. Large community: MERN stack has a large community of developers, which means that there are plenty of resources and support available for developers. \n 5. Flexible: MERN stack is flexible and can be used to build a wide range of applications, from simple web pages to complex, data-intensive applications. \n Thank you so much for taking your time. I hope you have gained a piece of basic knowledge about Introduction to MERN Stack Developer and how it works.",
   },
 ];
 

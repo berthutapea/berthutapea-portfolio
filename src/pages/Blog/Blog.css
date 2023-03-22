@@ -27,10 +27,10 @@
 @media only screen and (max-width: 500px) {
     .blog_image {
         max-width: 100%;
-        height: 250px;
+        height: 200px;
     }
     .main_blog_image {
         max-width: 100%;
-        height: 250px;
+        height: 200px;
     }
 }

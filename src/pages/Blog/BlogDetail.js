@@ -5,8 +5,8 @@ import blogs from "../../assets/blogs";
 import { useState } from "react";
 import { useEffect } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import { FiExternalLink } from "react-icons/fi";
-import { SiLinkedin, SiMedium } from "react-icons/si";
+import { FiExternalLink, FiLinkedin, FiGlobe } from "react-icons/fi";
+// import { SiLinkedin, SiMedium } from "react-icons/si";
 import {
   EmailShareButton,
   EmailIcon,
@@ -62,23 +62,23 @@ const BlogDetail = () => {
         </div>
         <div className="md:col-span-2 lg:col-span-1 bg-[#313131] px-4 py-6 rounded shadow-lg">
           <div className="">
-            <h4 className="text-lg font-medium mb-3">Other Platforms:</h4>
+            <h4 className="text-lg font-medium mb-3">Sponsor:</h4>
             <p className="flex items-center gap-3">
               <span>
-                <SiMedium />
+                <FiGlobe />
               </span>
               <a
-                href={blog?.medium_link}
+                href={blog?.website_link}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline flex items-center"
               >
-                <span>View in Medium</span> <FiExternalLink />
+                <span>Visit Website</span> <FiExternalLink />
               </a>
             </p>
             <p className="flex items-center gap-3">
               <span>
-                <SiLinkedin />
+                <FiLinkedin />
               </span>
               <a
                 href={blog?.linkedin_link}
@@ -86,7 +86,7 @@ const BlogDetail = () => {
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline flex items-center"
               >
-                <span>View in LinkedIn</span> <FiExternalLink />
+                <span>Visit LinkedIn</span> <FiExternalLink />
               </a>
             </p>
           </div>
@@ -103,13 +103,13 @@ const BlogDetail = () => {
             <FacebookShareButton url={url} title="Facebook">
               <FacebookIcon size={32} round={true} />
             </FacebookShareButton>
-            <TwitterShareButton url={url} title="Redux Blog by Gilbert Hutapea - ">
+            <TwitterShareButton url={url} title="Mern Blog by Gilbert Hutapea - ">
               <TwitterIcon size={32} round={true} />
             </TwitterShareButton>
-            <LinkedinShareButton url={url} title="Redux Blog by Gilbert Hutapea -">
+            <LinkedinShareButton url={url} title="Mern Blog by Gilbert Hutapea -">
               <LinkedinIcon size={32} round={true} />
             </LinkedinShareButton>
-            <WhatsappShareButton url={url} title="Redux Blog by Gilbert Hutapea -">
+            <WhatsappShareButton url={url} title="Mern Blog by Gilbert Hutapea -">
               <WhatsappIcon size={32} round={true} />
             </WhatsappShareButton>
           </div>
