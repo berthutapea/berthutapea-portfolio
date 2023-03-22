@@ -71,7 +71,7 @@ const Footer = () => {
           </a>
           <a
             className="text-xl inline-bloc mx-6 text-neutral"
-            // href="https://themeforest.net/user/itsproali"
+            href="https://themeforest.net/user/berthutapea"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -79,7 +79,7 @@ const Footer = () => {
           </a>
           <a
             className="text-xl inline-bloc mx-6 text-neutral"
-            // href="https://remotehub.com/itsproali"
+            href="https://remotehub.com/gilbert.hutapea"
             target="_blank"
             rel="noopener noreferrer"
           >
