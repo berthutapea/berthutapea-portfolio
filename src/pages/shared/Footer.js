@@ -47,7 +47,7 @@ const Footer = () => {
         <div className="hidden  md:flex items-center justify-center mb-6 flex-wrap">
           <a
             className="text-xl inline-bloc mx-6 text-neutral"
-            // href="http://fiverr.com/mdaligd"
+            href="https://www.fiverr.com/berthutapea"
             target="_blank"
             rel="noopener noreferrer"
           >
