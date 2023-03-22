@@ -55,7 +55,7 @@ const Footer = () => {
           </a>
           <a
             className="text-xl inline-bloc mx-6 text-neutral"
-            // href="http://upwork.com/itsproali"
+            href="https://www.upwork.com/freelancers/~0171c0d54d5dea86ec"
             target="_blank"
             rel="noopener noreferrer"
           >
