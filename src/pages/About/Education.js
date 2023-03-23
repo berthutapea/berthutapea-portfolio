@@ -34,25 +34,24 @@ const Education = () => {
               <h3 className="text-2xl font-semibold text-primary">
                 Diploma in CSE
               </h3>
-              <p className="text-sm text-neutral font-semibold">2020 - 2024</p>
+              <p className="text-sm text-neutral font-semibold">2021 - 2025</p>
             </div>
             <p className="text-sm text-neutral text-justify">
-              Currently I am studying in Computer Technology (4th Semester) at
-              Dhaka Polytechnic Institute.
+              I am currently studying in Informatics Engineering (4th Semester) at Sekolah Tinggi Teknologi Informatika Sony Sugema, Karawang, Jawa Barat, Indonesia
             </p>
           </div>
 
-          {/* Web Development */}
+          {/* React Developer */}
           <div className="my-6 md:my-4 md:ml-[200px] p-6 bg-[#313131] bg-opacity-90 backdrop-blur-lg rounded-lg shadow-lg w-[300px] hover:shadow-primary duration-300 cursor-pointer">
             <div className="text-right mb-4">
               <h3 className="text-2xl font-semibold text-primary">
-                Web Development
+                React Developer
               </h3>
-              <p className="text-sm text-neutral font-semibold">2022</p>
+              <p className="text-sm text-neutral font-semibold">2023</p>
             </div>
             <p className="text-sm text-neutral text-justify">
-              I have successfully completed the <b>Complete Web Development</b>{" "}
-              course with Jhankar Mahbub from Programming Hero.
+              I have successfully completed the <b>React Web Developer Expert</b>{" "}
+              from Dicoding.
             </p>
           </div>
 
@@ -60,11 +59,11 @@ const Education = () => {
           <div className="p-6 bg-[#313131] bg-opacity-90 backdrop-blur-lg rounded-lg shadow-lg w-[300px] hover:shadow-primary duration-300 cursor-pointer">
             <div className="text-right mb-4">
               <h3 className="text-2xl font-semibold text-primary">SSC</h3>
-              <p className="text-sm text-neutral font-semibold">2018 - 2020</p>
+              <p className="text-sm text-neutral font-semibold">2018 - 2021</p>
             </div>
             <p className="text-sm text-neutral text-justify">
               I have passed the Senior Secondary Certificate (SSC) with the
-              highest result <b>GPA - 5.00</b>
+              highest result <b>GPA - 88</b>
             </p>
           </div>
         </div>
