@@ -1,4 +1,4 @@
-.blog_cover {
+/* .blog_cover {
     width: 100%;
     height: 80vh;
     background-image: linear-gradient(rgba(36, 36, 36, 0.7), rgba(36, 36, 36, 0.9)), url('https://res.cloudinary.com/du541igfh/image/upload/v1679527637/Blog%20Portfolio%20Gilbert/blog_z0qviu.jpg');
@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 5px;
-}
+} */
 
 .blog_image {
     display: block;

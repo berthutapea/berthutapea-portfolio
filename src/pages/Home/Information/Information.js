@@ -69,13 +69,13 @@ const Informasi = () => {
                                     </Link>
                                 </div>
                                 <div className="w-full">
-                                    <h2 className="text-[22px] font-medium text-accent cursor-pointer hover:text-primary mt-[-25px]">
+                                    <h2 className="text-[22px] font-medium text-white cursor-pointer hover:text-primary mt-[-25px]">
                                         <Link to={"/blog/" + path}>{title}</Link>
                                     </h2>
                                     <span className="text-gray-600 text-sm">
                                         <p>{date}</p>
                                     </span>
-                                    <p className="text-accent mt-1 mb-6">
+                                    <p className="text-neutral mt-1 mb-6">
                                         {description?.slice(0, 80)} ...
                                     </p>
                                 </div>
