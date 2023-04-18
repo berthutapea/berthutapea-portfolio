@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Slider from "react-slick";
-import Items from "../../assets/Items";
-import PrimaryBtn from "../../components/PrimaryBtn";
-import SecondaryBtn from "../../components/SecondaryBtn";
+import Items from "../../Utils/Items";
+import PrimaryBtn from "../../components/PrimaryBtn/PrimaryBtn";
+import SecondaryBtn from "../../components/SecondaryBtn/SecondaryBtn";
 import { FaLink, FaCode } from "react-icons/fa";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import placeholderImage from "../../assets/placeholder.jpg";

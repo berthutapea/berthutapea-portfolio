@@ -8,7 +8,7 @@ import {
   headingAnimation,
   sectionBodyAnimation,
 } from "../../../hooks/useAnimation";
-import BottomLine from "../../../components/BottomLine";
+import BottomLine from "../../../components/BottomLine/BottomLine";
 
 const Service = () => {
   const [ref, inView] = useInView();
@@ -68,7 +68,9 @@ const Service = () => {
     // },
   ];
   return (
-    <div className="parent py-20">
+    <div className="parent py-20"
+      style={{ backgroundColor: "#313131" }}
+    >
       <motion.div
         className="mb-12"
         initial="hidden"
@@ -92,11 +94,10 @@ const Service = () => {
         {services?.map((service) => (
           <div
             key={service.id}
-            className={`${
-              service.id % 2 === 0
-                ? "bg-accent shadow-lg"
-                : "bg-[#313131] shadow-md"
-            } rounded-lg p-6 hover:shadow-primary cursor-pointer duration-300`}
+            className={`${service.id % 2 === 0
+              ? "bg-[#313131] shadow-md"
+              : "bg-accent shadow-lg"
+              } rounded-lg p-6 hover:shadow-primary cursor-pointer duration-300`}
           >
             <div className="text-center mb-4">
               <span className="text-primary text-5xl inline-block">

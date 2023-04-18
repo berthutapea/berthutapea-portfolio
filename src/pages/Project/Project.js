@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Items from "../../assets/Items";
+import Items from "../../Utils/Items";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { Link, useLocation } from "react-router-dom";
@@ -9,7 +9,7 @@ import {
   headingAnimation,
   sectionBodyAnimation,
 } from "../../hooks/useAnimation";
-import BottomLine from "../../components/BottomLine";
+import BottomLine from "../../components/BottomLine/BottomLine";
 
 const Project = () => {
   const [items, setItems] = useState(Items);

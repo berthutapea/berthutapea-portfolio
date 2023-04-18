@@ -16,7 +16,7 @@ import {
   SiAdobephotoshop,
   SiFirebase,
 } from "react-icons/si";
-import man from "../../assets/man.json";
+import man from "../../../assets/man.json";
 
 const MySkill = () => {
   const languages = [

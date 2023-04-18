@@ -1,5 +1,5 @@
 import React from "react";
-import PrimaryBtn from "../../components/PrimaryBtn";
+import PrimaryBtn from "../../../components/PrimaryBtn/PrimaryBtn";
 import { FaHome } from "react-icons/fa";
 import { Link } from "react-router-dom";
 

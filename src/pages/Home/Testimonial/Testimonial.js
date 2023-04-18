@@ -4,14 +4,14 @@ import { FaQuoteLeft } from "react-icons/fa";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import "./Testimonial.css";
-import Reviews from "../../../assets/Reviews";
+import Reviews from "../../../Utils/Reviews";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import {
   headingAnimation,
   sectionBodyAnimation,
 } from "../../../hooks/useAnimation";
-import BottomLine from "../../../components/BottomLine";
+import BottomLine from "../../../components/BottomLine/BottomLine";
 
 const Testimonial = () => {
   const [ref, inView] = useInView();
@@ -52,7 +52,8 @@ const Testimonial = () => {
     ],
   };
   return (
-    <div className="parent py-12">
+    <div className="parent py-12"
+      style={{ backgroundColor: "#313131" }}>
       <motion.div
         className="mb-8"
         initial="hidden"
@@ -76,8 +77,7 @@ const Testimonial = () => {
           {Reviews.map((review) => (
             <div key={review.id} className="mt-6">
               <div
-                className="mx-4 rounded-lg shadow-xl single-blog cursor-pointer border-2 border-primary pt-6 flex flex-col justify-between h-[300px]"
-                style={{ backgroundColor: "#313131" }}
+                className="mx-4 rounded-lg shadow-xl single-blog cursor-pointer border-2 border-primary pt-6 flex flex-col justify-between h-[300px] bg-accent"
               >
                 <div className="px-6">
                   <FaQuoteLeft className="text-6xl text-primary mb-4"></FaQuoteLeft>

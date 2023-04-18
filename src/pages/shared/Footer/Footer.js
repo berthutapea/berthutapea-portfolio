@@ -7,8 +7,8 @@ const Footer = () => {
   return (
     <>
       <footer
-        className="w-full text-center p-6"
-        style={{ backgroundColor: "#313131" }}
+        className="w-full text-center p-6 bg-accent"
+      style={{ backgroundColor: "#313131" }}
       >
         <div className="flex items-center justify-center mb-6">
           <a

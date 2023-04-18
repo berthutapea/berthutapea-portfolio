@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import Lottie from "react-lottie";
 import coding from "../../../assets/coding.json";
 import "../../shared/Shared.css";
-import SecondaryBtn from "../../../components/SecondaryBtn";
+import SecondaryBtn from "../../../components/SecondaryBtn/SecondaryBtn";
 
 const Banner = () => {
   const defaultOptions = {
@@ -19,7 +19,7 @@ const Banner = () => {
     },
   };
   return (
-    <div className="parent min-h-[90vh] flex flex-col-reverse lg:flex-row items-center justify-between">
+    <div className="parent min-h-[100vh] flex flex-col-reverse lg:flex-row items-center justify-between">
       <motion.div
         initial={{ x: "-100vw" }}
         animate={{ x: 0 }}

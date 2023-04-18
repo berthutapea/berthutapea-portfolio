@@ -2,11 +2,11 @@ import React from "react";
 import TypeAnimation from "react-type-animation";
 import { motion } from "framer-motion";
 import "./About.css";
-import "../../components/PrimaryBtn.css";
+import "../../components/PrimaryBtn/PrimaryBtn.css";
 import "../shared/Shared.css";
-import BottomLine from "../../components/BottomLine";
-import MySkill from "./MySkill";
-import Education from "./Education";
+import BottomLine from "../../components/BottomLine/BottomLine";
+import MySkill from "./MySkill/MySkill";
+import Education from "./Education/Education";
 import { FaDownload } from "react-icons/fa";
 
 const About = () => {

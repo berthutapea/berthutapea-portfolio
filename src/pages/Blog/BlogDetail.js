@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import placeholderImage from "../../assets/placeholder.jpg";
-import blogs from "../../assets/blogs";
+import blogs from "../../Utils/blogs";
 import { useState } from "react";
 import { useEffect } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
