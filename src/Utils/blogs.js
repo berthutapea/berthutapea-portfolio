@@ -88,7 +88,7 @@ const blogs = [
     title: "Mengenal AI (Artificial Intelligence) dan Perannya dalam Dunia Teknologi",
     path: "mengenal-artificial-intelligence",
     date: "15 November 2022",
-    img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680162572/Blog%20MSN/Mengenal_AI_Artificial_Intelligence_dan_Perannya_dalam_Dunia_Teknologi_bypsuh.jpg",
+    img: "https://res.cloudinary.com/du541igfh/image/upload/v1682378753/Blog%20Portfolio%20Gilbert/blog-10_ceye4o.jpg",
     instagram_link:
       "https://www.instagram.com/msn.production/",
     linkedin_link:
@@ -116,7 +116,7 @@ const blogs = [
     title: "Mengapa Internet of Things (IoT) Akan Menjadi Trend Teknologi Terbesar di Masa Depan",
     path: "internet-of-things",
     date: "30 November 2022",
-    img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680165664/Blog%20MSN/iot_slasgq.jpg",
+    img: "https://res.cloudinary.com/du541igfh/image/upload/v1682378362/Blog%20Portfolio%20Gilbert/blog-09_d9btsw.jpg",
     instagram_link:
       "https://www.instagram.com/msn.production/",
     linkedin_link:
@@ -130,7 +130,7 @@ const blogs = [
     title: "Mengenal Teknologi Big Data untuk Mengoptimalkan Bisnis Anda",
     path: "mengenal-big-data",
     date: "12 January 2023",
-    img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680167041/Blog%20MSN/BIG-DATA_g70lqg.jpg",
+    img: "https://res.cloudinary.com/du541igfh/image/upload/v1682378150/Blog%20Portfolio%20Gilbert/blog-08_dg18fq.jpg",
     instagram_link:
       "https://www.instagram.com/msn.production/",
     linkedin_link:
