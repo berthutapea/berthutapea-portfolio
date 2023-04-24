@@ -32,7 +32,7 @@ const blogs = [
     title: "Mengenal Apa Itu Redux Cara Kerja & Kelebihannya",
     path: "mengenal-redux",
     date: "25 September 2022",
-    img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680156651/Blog%20MSN/REDUX_d0qd51.jpg",
+    img: "https://res.cloudinary.com/du541igfh/image/upload/v1682375519/Blog%20Portfolio%20Gilbert/blog-02_sfkoc2.jpg",
     instagram_link:
       "https://www.instagram.com/msn.production/",
     linkedin_link:
