@@ -18,7 +18,7 @@ const blogs = [
     title: "5 Prospek Pekerjaan Jurusan Teknik Informatika",
     path: "pekerjaan-jurusan-teknik-informatika",
     date: "20 September 2022",
-    img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680154547/Blog%20MSN/5_Prospek_Pekerjaan_Jurusan_Teknik_Informatika_leo1iw.jpg",
+    img: "https://res.cloudinary.com/du541igfh/image/upload/v1682379107/Blog%20Portfolio%20Gilbert/blog-11_d4jicx.jpg",
     instagram_link:
       "https://www.instagram.com/msn.production/",
     linkedin_link:
@@ -60,7 +60,7 @@ const blogs = [
     title: "5 Teknologi Terbaru yang Akan Mengubah Cara Kita Hidup",
     path: "teknologi-terbaru",
     date: "09 November 2022",
-    img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680159590/Blog%20MSN/5_Teknologi_Terbaru_yang_Akan_Mengubah_Cara_Kita_Hidup_h4qzjc.jpg",
+    img: "https://res.cloudinary.com/du541igfh/image/upload/v1682379583/Blog%20Portfolio%20Gilbert/blog-13_ja6gob.jpg",
     instagram_link:
       "https://www.instagram.com/msn.production/",
     linkedin_link:
@@ -144,7 +144,7 @@ const blogs = [
     title: "Mengapa UKM Butuh Website",
     path: "ukm-website",
     date: "28 January 2023",
-    img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680169583/Blog%20MSN/UKM-WEBSITE_udqv0o.jpg",
+    img: "https://res.cloudinary.com/du541igfh/image/upload/v1682379347/Blog%20Portfolio%20Gilbert/blog-12_ogkohs.jpg",
     instagram_link:
       "https://www.instagram.com/msn.production/",
     linkedin_link:
