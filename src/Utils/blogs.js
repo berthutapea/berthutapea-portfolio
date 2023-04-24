@@ -71,10 +71,10 @@ const blogs = [
   },
   {
     _id: 6,
-    title: "Bagaimana Teknologi Cloud Computing Membantu Meningkatkan Efisiensi Bisnis",
+    title: "How Cloud Computing Technology Helps Increase Business Efficiency",
     path: "cloud-computing",
     date: "12 November 2022",
-    img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680161513/Blog%20MSN/Bagaimana_Teknologi_Cloud_Computing_Membantu_Meningkatkan_Efisiensi_Bisnis_r8zznr.jpg",
+    img: "https://res.cloudinary.com/du541igfh/image/upload/v1682376600/Blog%20Portfolio%20Gilbert/blog-04_trkwbx.jpg",
     instagram_link:
       "https://www.instagram.com/msn.production/",
     linkedin_link:
