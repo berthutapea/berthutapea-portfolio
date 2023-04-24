@@ -200,7 +200,7 @@ const blogs = [
     title: "Mengenal Apa itu CMS, Manfaat & Cara Kerjanya",
     path: "mengenal-cms",
     date: "21 Maret 2023",
-    img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680191358/Blog%20MSN/cms_qmdhgp.jpg",
+    img: "https://res.cloudinary.com/du541igfh/image/upload/v1682375977/Blog%20Portfolio%20Gilbert/blog-03_brxqav.jpg",
     instagram_link:
       "https://www.instagram.com/msn.production/",
     linkedin_link:
