@@ -102,7 +102,7 @@ const blogs = [
     title: "Mengenal Metaverse dan Bagaimana Pengaruhnya Dalam Kehidupan",
     path: "mengenal-metaverse",
     date: "28 November 2022",
-    img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680164600/Blog%20MSN/metaverse_gkeb3w.jpg",
+    img: "https://res.cloudinary.com/du541igfh/image/upload/v1682377590/Blog%20Portfolio%20Gilbert/blog-07_wm8gyz.jpg",
     instagram_link:
       "https://www.instagram.com/msn.production/",
     linkedin_link:
@@ -155,10 +155,10 @@ const blogs = [
   },
   {
     _id: 12,
-    title: "Mengenal Perbedaan Antara Front End dan Back End Developer",
+    title: "Know the Difference Between Front End and Back End Developer",
     path: "mengenal-fronted-backend-developer",
     date: "07 February 2023",
-    img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680187840/Blog%20MSN/fronted-backend-developer_maczhk.jpg",
+    img: "https://res.cloudinary.com/du541igfh/image/upload/v1682376966/Blog%20Portfolio%20Gilbert/blog-05_j7lh83.jpg",
     instagram_link:
       "https://www.instagram.com/msn.production/",
     linkedin_link:
@@ -172,7 +172,7 @@ const blogs = [
     title: "Mengenal Apa itu Proxy Server & Cara Kerjanya",
     path: "mengenal-proxy-server",
     date: "23 February 2023",
-    img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680189684/Blog%20MSN/proxy-serevr_wzls0y.jpg",
+    img: "https://res.cloudinary.com/du541igfh/image/upload/v1682377204/Blog%20Portfolio%20Gilbert/blog-06_skjv9c.jpg",
     instagram_link:
       "https://www.instagram.com/msn.production/",
     linkedin_link:
