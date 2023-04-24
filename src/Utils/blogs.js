@@ -46,7 +46,7 @@ const blogs = [
     title: "Janji dan Potensi Teknologi 5G",
     path: "teknologi-5g",
     date: "06 November 2022",
-    img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680158117/Blog%20MSN/teknologi-5g_w9c16l.jpg",
+    img: "https://res.cloudinary.com/du541igfh/image/upload/v1682380096/Blog%20Portfolio%20Gilbert/blog-15_jmgiau.jpg",
     instagram_link:
       "https://www.instagram.com/msn.production/",
     linkedin_link:
@@ -186,7 +186,7 @@ const blogs = [
     title: "Mengenal Strategi Ecommerce Marketing Untuk Bisnis Anda",
     path: "mengenal-strategi-ecommerce-marketing",
     date: "09 Maret 2023",
-    img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680192645/Blog%20MSN/ecommerce-marketing_omm6ep.jpg",
+    img: "https://res.cloudinary.com/du541igfh/image/upload/v1682379893/Blog%20Portfolio%20Gilbert/blog-14_i6cr3c.jpg",
     instagram_link:
       "https://www.instagram.com/msn.production/",
     linkedin_link:
