@@ -92,22 +92,22 @@ const BlogDetail = () => {
           <div className="w-full h-[1px] bg-neutral my-6"></div>
 
           <h4 className="text-lg font-medium mb-3">
-            Bagikan :{" "}
+            Share :{" "}
           </h4>
           <div className="flex items-center gap-4 flex-wrap">
-            <EmailShareButton url={url} title="Gilbert Hutapea -">
+            <EmailShareButton url={url} title="Gilbert Hutapea ">
               <EmailIcon size={32} round={true} />
             </EmailShareButton>
-            <FacebookShareButton url={url} title="Gilbert Hutapea -">
+            <FacebookShareButton url={url} title="Gilbert Hutapea ">
               <FacebookIcon size={32} round={true} />
             </FacebookShareButton>
-            <TwitterShareButton url={url} title="Gilbert Hutapea -">
+            <TwitterShareButton url={url} title="Gilbert Hutapea ">
               <TwitterIcon size={32} round={true} />
             </TwitterShareButton>
-            <LinkedinShareButton url={url} title="Gilbert Hutapea -">
+            <LinkedinShareButton url={url} title="Gilbert Hutapea ">
               <LinkedinIcon size={32} round={true} />
             </LinkedinShareButton>
-            <WhatsappShareButton url={url} title="Gilbert Hutapea -">
+            <WhatsappShareButton url={url} title="Gilbert Hutapea ">
               <WhatsappIcon size={32} round={true} />
             </WhatsappShareButton>
           </div>
