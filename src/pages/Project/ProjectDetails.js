@@ -37,7 +37,7 @@ const ProjectDetails = () => {
   };
   return (
     <div className="parent py-16">
-      <h1 className="text-center text-4xl font-medium">{item?.title}</h1>
+      <h1 className="text-center text-4xl font-medium mt-8">{item?.title}</h1>
 
       <Slider {...settings}>
         {item?.img?.map((image, index) => (
@@ -54,7 +54,7 @@ const ProjectDetails = () => {
               <LazyLoadImage
                 placeholderSrc={placeholderImage}
                 src={image}
-                className="project_image"
+                className="project_image object-cover"
               />
             </div>
           </div>
