@@ -88,7 +88,7 @@ const Items = [
     title: "MERN BLOG",
     description:
       "Fullstack open source blogging application made with MongoDB, Express, React & Nodejs (MERN)",
-    category: "business",
+    category: "personal",
     liveLink: "https://github.com/berthutapea/mern-blog-v2",
     codeLink: "https://github.com/berthutapea/mern-blog-v2",
   },
@@ -130,7 +130,7 @@ const Items = [
       "Change admin and employee passwords",
       "Login Employees/Staff",
       "Print employees/staff salary reports from personal accounts",
-      "404 Page and many more.",
+      "404 Page and many more",
       "Responsive Design.",
     ],
     technologies: [
