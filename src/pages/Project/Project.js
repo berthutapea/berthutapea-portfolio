@@ -86,17 +86,6 @@ const Project = () => {
             >
               Business
             </button>
-            {/* <button
-            className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary duration-300 mx-3 my-3 sm:my-0 ${
-              activeBtn === "e-commerce" && "active-btn"
-            }`}
-            onClick={() => {
-              setActiveBtn("e-commerce");
-              filterItem("e-commerce");
-            }}
-          >
-            E-Commerce
-          </button> */}
             <button
               className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary duration-300 mx-3 my-3 sm:my-0 ${activeBtn === "personal" && "active-btn"
                 }`}
@@ -107,6 +96,17 @@ const Project = () => {
             >
               Personal
             </button>
+            <button
+            className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary duration-300 mx-3 my-3 sm:my-0 ${
+              activeBtn === "game" && "active-btn"
+            }`}
+            onClick={() => {
+              setActiveBtn("game");
+              filterItem("game");
+            }}
+          >
+            Game
+          </button>
           </div>
 
           {/* Items Card */}
