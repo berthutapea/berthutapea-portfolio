@@ -1,11 +1,7 @@
 <h1 align ="center" >Gilbert Hutapea | Portfolio</h1>
 
-<!-- <div style="text-align: center; justify-content: center;">
-  <img src="https://user-images.githubusercontent.com/111676859/230091561-cbb6e02f-387d-46dc-a3fa-ea789047550d.png" width="150" height="150">
-</div> -->
-
 <h5  align ="center"> 
-Dedicated Front-end developer. Capable to solve working problems. Passionate about learning & development to reach the target. Eager to tackle more complex problems and continue to find ways to maximize user efficiency. My next mission is how to become a Mern stack Developer. I would love to build some Giant Website which will shine myself.</h5>
+Dedicated Front-end developer. Capable to solve working problems. Passionate about learning & development to reach the target. Eager to tackle more complex problems and continue to find ways to maximize user efficiency. My next mission is how to become a Mern stack Developer. I would love to build some Giant Website which will shine myself.<a href="">Resume 💼</a> </h5>
 <br/>
 
   * [Configuration and Setup](#configuration-and-setup)
