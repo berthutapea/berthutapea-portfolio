@@ -230,6 +230,40 @@ const Items = [
     liveLink: "https://github.com/berthutapea/react-quiz",
     codeLink: "https://github.com/berthutapea/react-quiz",
   },
+  {
+    id: 6,
+    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
+    img: [
+      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
+      "https://res.cloudinary.com/du541igfh/image/upload/v1683033411/Blog%20Portfolio%20Gilbert/Project/shopify/img-2_nko9ic.png",
+      "https://res.cloudinary.com/du541igfh/image/upload/v1683033413/Blog%20Portfolio%20Gilbert/Project/shopify/img-3_rnhbr1.png",
+      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-4_ks8lck.png",
+      "https://res.cloudinary.com/du541igfh/image/upload/v1683033409/Blog%20Portfolio%20Gilbert/Project/shopify/img-5_eotroj.png",
+      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-6_fgpzef.png",
+    ],
+    features: [
+      "Mobile Responsive",
+      "Beautiful Animations",
+      "Product",
+      "Pricing",
+      "Testimonial",
+      "Contact",
+    ],
+    technologies: [
+      "React",
+      "React Vite",
+      "Tailwind CSS",
+      "Framer Motion",
+      "React Icons",
+      "React Hooks",
+    ],
+    title: "Shopify",
+    description:
+      "Open source landing page shopify application",
+    category: "personal",
+    liveLink: "https://github.com/berthutapea/react-shopify-landing",
+    codeLink: "https://github.com/berthutapea/react-shopify-landing",
+  },
 ];
 
 export default Items;
