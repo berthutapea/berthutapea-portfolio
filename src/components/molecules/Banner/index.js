@@ -6,8 +6,8 @@ import TypeAnimation from "react-type-animation";
 import { motion } from "framer-motion";
 import Lottie from "react-lottie";
 import coding from "../../../assets/coding.json";
-import "../../shared/Shared.css";
-import SecondaryBtn from "../../../components/SecondaryBtn/SecondaryBtn";
+import "../../../pages/shared/Shared.css";
+import { SecondaryBtn } from "../../../components";
 
 const Banner = () => {
   const defaultOptions = {

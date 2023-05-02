@@ -2,11 +2,11 @@ import React from "react";
 import TypeAnimation from "react-type-animation";
 import { motion } from "framer-motion";
 import "./About.css";
-import "../../components/PrimaryBtn/PrimaryBtn.css";
+import "../../components/atoms/PrimaryBtn/PrimaryBtn.css";
 import "../shared/Shared.css";
-import BottomLine from "../../components/BottomLine/BottomLine";
-import MySkill from "./MySkill/MySkill";
-import Education from "./Education/Education";
+import { BottomLine, MySkill, Education } from "../../components";
+// import MySkill from "./MySkill/MySkill";
+// import Education from "./Education/Education";
 import { FaDownload } from "react-icons/fa";
 
 const About = () => {
@@ -40,7 +40,7 @@ const About = () => {
             <img
               src="https://res.cloudinary.com/du541igfh/image/upload/v1683035791/Blog%20Portfolio%20Gilbert/Project/berthutapea.com/GilbertHutapea_qjy2gq.png"
               alt="Gilbert Hutapea"
-              class="p-12 w-70 h-70 transform translate-y-[-12%]"
+              className="p-12 w-70 h-70 transform translate-y-[-12%]"
             />
 
           </motion.div>
@@ -53,7 +53,7 @@ const About = () => {
               transition: { duration: 1, delay: 1.25 },
             }}
           >
-            <h1 class="text-4xl font-semibold mb-4 text-center translate-y-[-380%] sm:translate-y-[-0%] sm:text-3xl sm:mb-2 md:text-left">Gilbert Hutapea</h1>
+            <h1 className="text-4xl font-semibold mb-4 text-center translate-y-[-380%] sm:translate-y-[-0%] sm:text-3xl sm:mb-2 md:text-left">Gilbert Hutapea</h1>
             <div className="my-8">
               <TypeAnimation
                 className="text-2xl text-primary font-bold text-center translate-y-[-480%] sm:translate-y-[-0%]  sm:text-2xl sm:mb-2 md:text-left"
@@ -99,8 +99,8 @@ const About = () => {
                 // href="https://drive.google.com/file/d/1qVQ1OLO-5RxHy1rwbe5Ib9igCTfeO99f/view?usp=sharing"
                 target="blank"
               >
-                <div class="flex justify-center md:justify-start translate-y-[60%] sm:translate-y-[-0%]">
-                  <button class="primary-button">
+                <div className="flex justify-center md:justify-start translate-y-[60%] sm:translate-y-[-0%]">
+                  <button className="primary-button">
                     <span>My Resume</span>
                     <span>
                       <FaDownload />

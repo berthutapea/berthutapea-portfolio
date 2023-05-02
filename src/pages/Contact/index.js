@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Contact.css";
-import "../../components/PrimaryBtn/PrimaryBtn.css";
+import "../../components/atoms/PrimaryBtn/PrimaryBtn.css";
 import "../shared/Shared.css";
 import { motion, useAnimation } from "framer-motion";
 import {
@@ -18,7 +18,7 @@ import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom";
 import { useInView } from "react-intersection-observer";
 import { headingAnimation, contactAnimation } from "../../hooks/useAnimation";
-import BottomLine from "../../components/BottomLine/BottomLine";
+import { BottomLine } from "../../components";
 
 const Contact = () => {
   const navigate = useNavigate();

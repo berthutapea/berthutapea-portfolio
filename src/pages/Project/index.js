@@ -9,7 +9,7 @@ import {
   headingAnimation,
   sectionBodyAnimation,
 } from "../../hooks/useAnimation";
-import BottomLine from "../../components/BottomLine/BottomLine";
+import {BottomLine} from "../../components";
 
 const Project = () => {
   const [items, setItems] = useState(Items);

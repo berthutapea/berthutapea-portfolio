@@ -3,7 +3,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Link } from "react-router-dom";
 import placeholderImage from "../../../assets/placeholder.jpg";
 import blogs from "../../../Utils/blogs";
-import BottomLine from "../../../components/BottomLine/BottomLine";
+import { BottomLine } from "../../../components";
 import { FaAngleRight } from "react-icons/fa";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";

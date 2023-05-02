@@ -8,7 +8,7 @@ import {
   headingAnimation,
   sectionBodyAnimation,
 } from "../../../hooks/useAnimation";
-import BottomLine from "../../../components/BottomLine/BottomLine";
+import { BottomLine } from "../../../components";
 
 const Service = () => {
   const [ref, inView] = useInView();
