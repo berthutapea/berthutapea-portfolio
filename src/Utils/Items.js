@@ -89,7 +89,7 @@ const Items = [
     description:
       "Fullstack open source blogging application made with MongoDB, Express, React & Nodejs (MERN)",
     category: "personal",
-    liveLink: "https://github.com/berthutapea/mern-blog-v2",
+    liveLink: "/mern-blog",
     codeLink: "https://github.com/berthutapea/mern-blog-v2",
   },
   {
@@ -157,12 +157,12 @@ const Items = [
       "Nodemon",
       "Sequelize",
     ],
-    title: "Employee Payroll",
+    title: "Employee Salary Management",
     description:
       "Warehouse website with employee/employee management, add employee and job title options. Employee attendance data setting salary deductions and salary data. Print salary reports, attendance and salary data and many other features.",
     category: "business",
-    liveLink: "https://github.com/berthutapea/mern-penggajian-karyawan",
-    codeLink: "https://github.com/berthutapea/mern-penggajian-karyawan",
+    liveLink: "/employee-salary-management",
+    codeLink: "https://github.com/berthutapea/mern-employee-salary-management",
   },
   {
     id: 4,
