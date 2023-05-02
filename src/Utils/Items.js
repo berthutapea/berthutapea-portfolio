@@ -162,7 +162,7 @@ const Items = [
       "Warehouse website with employee/employee management, add employee and job title options. Employee attendance data setting salary deductions and salary data. Print salary reports, attendance and salary data and many other features.",
     category: "business",
     liveLink: "http://localhost:3000/employee-salary-management",
-    codeLink: "https://github.com/berthutapea/mern-employee-salary-management",
+    codeLink: "https://berthutapea.vercel.app/mern-employee-salary-management",
   },
   {
     id: 4,
