@@ -89,7 +89,7 @@ const Items = [
     description:
       "Fullstack open source blogging application made with MongoDB, Express, React & Nodejs (MERN)",
     category: "personal",
-    liveLink: "http://localhost:3000/mern-blog",
+    liveLink: "https://berthutapea.vercel.app/mern-blog",
     codeLink: "https://github.com/berthutapea/mern-blog-v2",
   },
   {
