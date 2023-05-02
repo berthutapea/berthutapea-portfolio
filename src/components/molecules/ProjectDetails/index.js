@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom";
 import Slider from "react-slick";
 import Items from "../../../Utils/Items";
 import { PrimaryBtn, SecondaryBtn } from "../../../components";
-// import SecondaryBtn from "../../components/SecondaryBtn/SecondaryBtn";
 import { FaLink, FaCode } from "react-icons/fa";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import placeholderImage from "../../../assets/placeholder.jpg";

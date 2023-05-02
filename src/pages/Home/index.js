@@ -1,10 +1,7 @@
 import React from "react";
 import Project from "../Project";
-import { Banner, Testimonial, Information, Service } from "../../components";
-// import Service from "./Service/Service";
-// import Testimonial from "./Testimonial/Testimonial";
-// import Information from "../../components/molecules/Banner/Information/Information";
 import Contact from "../Contact";
+import { Banner, Testimonial, Information, Service } from "../../components";
 
 const Home = () => {
   return (

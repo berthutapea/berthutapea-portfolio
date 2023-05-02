@@ -5,8 +5,6 @@ import "./About.css";
 import "../../components/atoms/PrimaryBtn/PrimaryBtn.css";
 import "../shared/Shared.css";
 import { BottomLine, MySkill, Education } from "../../components";
-// import MySkill from "./MySkill/MySkill";
-// import Education from "./Education/Education";
 import { FaDownload } from "react-icons/fa";
 
 const About = () => {

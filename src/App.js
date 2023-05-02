@@ -1,14 +1,7 @@
 import { Route, Routes, useLocation, Navigate } from "react-router-dom";
 import React, { Suspense } from "react";
 import { NotFound, Loader, ScrollToTop, ProjectDetails, Navbar, Footer, BlogDetail, BlogIndex } from "./components";
-// import Loader from "./pages/shared/Loader/Loader";
-// import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
-// import ProjectDetails from "./pages/Project/ProjectDetails";
-// import Navbar from "./pages/shared/Navbar/Navbar";
-// import Footer from "./pages/shared/Footer/Footer";
 import Blog from "./pages/Blog";
-// import BlogDetail from "./pages/Blog/BlogDetail/BlogDetail";
-// import BlogIndex from "./pages/Blog/BlogIndex/BlogIndex";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 const Home = React.lazy(() => import("./pages/Home"));

@@ -28,8 +28,6 @@
     display: flex;
     justify-content: stretch;
     align-items: center;
-    /* background-color: transparent; */
-    /* padding: 0 7%; */
 }
 
 .nav-hidden {
