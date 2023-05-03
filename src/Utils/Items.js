@@ -191,7 +191,7 @@ const Items = [
     description:
       "Mario Jump is an endless running game inspired by the famous Google Chrome's T-Rex Dinosaur Game 🦖. The game is built entirely with ReactJS ⚛ and Redux Toolkit 🔧.",
     category: "game",
-    liveLink: "https://github.com/berthutapea/mario-jump-game",
+    liveLink: "https://mariojumpp.vercel.app/",
     codeLink: "https://github.com/berthutapea/mario-jump-game",
   },
   {
@@ -227,7 +227,7 @@ const Items = [
     description:
       "Fullstack open source quiz application",
     category: "personal",
-    liveLink: "https://github.com/berthutapea/react-quiz",
+    liveLink: "https://bertquiz.vercel.app/",
     codeLink: "https://github.com/berthutapea/react-quiz",
   },
   {
@@ -261,7 +261,7 @@ const Items = [
     description:
       "Open source landing page shopify application",
     category: "personal",
-    liveLink: "https://github.com/berthutapea/react-shopify-landing",
+    liveLink: "https://shopifyy.vercel.app/",
     codeLink: "https://github.com/berthutapea/react-shopify-landing",
   },
 ];
