@@ -25,11 +25,11 @@ const Banner = () => {
         animate={{ x: 0 }}
         transition={{ duration: 1 }}
       >
-        <h2 className="text-neutral text-xl font-medium translate-y-[-150%] sm:translate-y-[-0%]">Hello, I'm</h2>
-        <h1 className="text-4xl font-semibold mb-0 translate-y-[-90%] sm:translate-y-[-0%]">Gilbert Hutapea</h1>
+        <h2 className="text-neutral text-xl font-medium translate-y-[-250%] sm:translate-y-[-0%]">Hello, I'm</h2>
+        <h1 className="text-4xl font-semibold mb-0 translate-y-[-140%] sm:translate-y-[-0%]">Gilbert Hutapea</h1>
         <div className="my-4">
           <TypeAnimation
-            className="text-2xl text-primary font-bold translate-y-[-120%] sm:translate-y-[-0%]"
+            className="text-2xl text-primary font-bold translate-y-[-220%] sm:translate-y-[-0%]"
             cursor={true}
             sequence={[
               "A Front-end Developer",
@@ -43,12 +43,12 @@ const Banner = () => {
             repeat={Infinity}
           />
         </div>
-        <p className="text-neutral max-w-md mb-6 font-medium translate-y-[-60%] sm:translate-y-[-0%]">
+        <p className="text-neutral max-w-md mb-6 font-medium translate-y-[-100%] sm:translate-y-[-0%]">
           I am a Front-end Developer. I am very passionate to my work and
           dedicated to explore New Tools And Technologies.
         </p>
 
-        <div className="flex items-center translate-y-[-70%] sm:translate-y-[-0%]">
+        <div className="flex items-center translate-y-[-170%] sm:translate-y-[-0%]">
           <a
             href="https://drive.google.com/file/d/16r18tc8RhGEiQoOGTTFvgZ0g46C_oQFe/view?usp=share_link"
             target="blank"
