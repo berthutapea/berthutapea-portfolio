@@ -64,10 +64,8 @@ This project was created using the following technologies.
 --- - 
 ![img-5](https://user-images.githubusercontent.com/111676859/235824168-a1028607-de4c-466a-8527-c05eedb1d6b0.png)
 
-
-
 ## Author
-
+- Portfolio: [berthutapea](https://berthutapea.vercel.app/)
 - Github: [@bert-hutapea](https://github.com/berthutapea)
 - Linkedin: [@gilbert-hutapea](https://www.linkedin.com/in/gilberthutapea/)
 - Email: [berthutapea@gmail.com](mailto:berthutapea@gmail.com)
