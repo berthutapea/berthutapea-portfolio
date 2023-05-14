@@ -68,8 +68,8 @@ const Service = () => {
     // },
   ];
   return (
-    <div className="parent py-20"
-      style={{ backgroundColor: "#313131" }}
+    <div className="py-20 parent"
+    // style={{ backgroundColor: "#313131" }}
     >
       <motion.div
         className="mb-12"
@@ -77,7 +77,7 @@ const Service = () => {
         animate={viewDiv && "visible"}
         variants={headingAnimation}
       >
-        <h3 className="text-neutral text-center">What I Provide</h3>
+        <h3 className="text-center text-neutral">What I Provide</h3>
         <h1 className="text-4xl font-semibold text-center">
           My <span className="text-primary">Services</span>
         </h1>
@@ -85,7 +85,7 @@ const Service = () => {
       </motion.div>
 
       <motion.div
-        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+        className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
         ref={ref}
         initial="hidden"
         animate={viewDiv && "visible"}
@@ -95,16 +95,16 @@ const Service = () => {
           <div
             key={service.id}
             className={`${service.id % 2 === 0
-              ? "bg-[#313131] shadow-md"
-              : "bg-accent shadow-lg"
+              ? "bg-accent shadow-lg"
+              : "bg-[#313131] shadow-md"
               } rounded-lg p-6 hover:shadow-primary cursor-pointer duration-300`}
           >
-            <div className="text-center mb-4">
-              <span className="text-primary text-5xl inline-block">
+            <div className="mb-4 text-center">
+              <span className="inline-block text-5xl text-primary">
                 {service.icon}
               </span>
             </div>
-            <h2 className="text-2xl font-semibold text-center mb-4">
+            <h2 className="mb-4 text-2xl font-semibold text-center">
               {service.title}
             </h2>
             <p className="text-neutral">{service.description}</p>

@@ -39,6 +39,7 @@ const About = () => {
               src="https://res.cloudinary.com/du541igfh/image/upload/v1683035791/Blog%20Portfolio%20Gilbert/Project/berthutapea.com/GilbertHutapea_qjy2gq.png"
               alt="Gilbert Hutapea"
               className="p-12 w-70 h-70 transform translate-y-[-12%]"
+              title="Gilbert Hutapea"
             />
 
           </motion.div>
@@ -54,32 +55,40 @@ const About = () => {
             <h1 className="text-4xl font-semibold mb-4 text-center translate-y-[-380%] sm:translate-y-[-0%] sm:text-3xl sm:mb-2 md:text-left">Gilbert Hutapea</h1>
             <div className="my-8">
               <TypeAnimation
-                className="text-2xl text-primary font-bold text-center translate-y-[-480%] sm:translate-y-[-0%]  sm:text-2xl sm:mb-2 md:text-left"
+                className="text-2xl text-primary font-bold text-center translate-y-[-500%] sm:translate-y-[-0%]  sm:text-2xl sm:mb-2 md:text-left"
                 cursor={true}
                 sequence={[
-                  "A Front-end Developer",
-                  2000,
-                  "A React JS Developer",
-                  2000,
                   "A Mern-stack Developer",
                   2000,
+                  "A Full-stack Developer",
+                  2000,
+                  "A Front-end Developer",
+                  2000
                 ]}
                 wrapper="div"
                 repeat={Infinity}
               />
             </div>
-            <p className="text-neutral font-medium text-center translate-y-[-120%] sm:translate-y-[-0%] sm:mb-2 md:text-left">
-              Dedicated Front-end developer. Capable to solve working problems.
+            <p className="text-neutral font-medium text-center translate-y-[-100%] sm:translate-y-[-0%] sm:mb-2 md:text-left">
+              As a MERN stack developer, I am committed to building high-quality
+              web applications that meet the needs of my clients. With years of
+              experience in full-stack web development, I specialize in using
+              React.js, Next js, Typescript, MongoDB, Express.js, and Node.js to
+              create scalable and robust web applications.
+              {/* Dedicated Front-end developer. Capable to solve working problems.
               Passionate about learning & development to reach the target. Eager
               to tackle more complex problems and continue to find ways to
-              maximize user efficiency.
+              maximize user efficiency. */}
             </p>
             <br />
-            <p className="text-neutral font-medium text-center translate-y-[-180%] sm:translate-y-[-0%] sm:mb-2 md:text-left">
-              My next mission is how to become a Mern stack Developer. I would
-              love to build some Giant Website which will shine myself.
+            <p className="text-neutral font-medium text-center translate-y-[-150%] sm:translate-y-[-0%] sm:mb-2 md:text-left">
+              My passion for solving complex problems and creating innovative
+              solutions drives me to stay up-to-date with the latest
+              technologies and trends in the industry.
+              {/* My next mission is how to become a Mern stack Developer. I would
+              love to build some Giant Website which will shine myself. */}
             </p>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-4 mt-4 text-center translate-y-[-45%] sm:translate-y-[-0%] sm:mb-2 md:text-left ">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-4 mt-4 text-center translate-y-[-50%] sm:translate-y-[-0%] sm:mb-2 md:text-left ">
               <h2 className="font-medium">
                 <span className="mr-2 text-primary">Name : </span>Gilbert Hutapea
               </h2>

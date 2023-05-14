@@ -25,30 +25,35 @@ const Banner = () => {
         animate={{ x: 0 }}
         transition={{ duration: 1 }}
       >
-        <h2 className="text-neutral text-xl font-medium translate-y-[-250%] sm:translate-y-[-0%]">Hello, I'm</h2>
-        <h1 className="text-4xl font-semibold mb-0 translate-y-[-140%] sm:translate-y-[-0%]">Gilbert Hutapea</h1>
+        <h2 className="text-neutral text-xl font-medium translate-y-[-90%] sm:translate-y-[-0%]">Hello, I'm</h2>
+        <h1 className="text-4xl font-semibold mb-0 translate-y-[-50%] sm:translate-y-[-0%]">Gilbert Hutapea</h1>
         <div className="my-4">
           <TypeAnimation
-            className="text-2xl text-primary font-bold translate-y-[-220%] sm:translate-y-[-0%]"
+            className="text-2xl text-primary font-bold translate-y-[-80%] sm:translate-y-[-0%]"
             cursor={true}
             sequence={[
-              "A Front-end Developer",
-              2000,
-              "A React JS Developer",
-              2000,
               "A Mern-stack Developer",
+              2000,
+              "A Full-stack Developer",
+              2000,
+              "A Front-end Developer",
               2000,
             ]}
             wrapper="div"
             repeat={Infinity}
           />
         </div>
-        <p className="text-neutral max-w-md mb-6 font-medium translate-y-[-100%] sm:translate-y-[-0%]">
-          I am a Front-end Developer. I am very passionate to my work and
-          dedicated to explore New Tools And Technologies.
+        <p className="text-neutral max-w-xl mb-6 font-medium translate-y-[-20%] sm:translate-y-[-0%]">
+          As a MERN stack developer, I am committed to building high-quality web
+          applications that meet the needs of my clients. With years of
+          experience in full-stack web development, I specialize in using
+          React.js, Next js, Typescript, MongoDB, Express.js, and Node.js to
+          create scalable and robust web applications.
+          {/* I am a Front-end Developer. I am very passionate to my work and
+          dedicated to explore New Tools And Technologies. */}
         </p>
 
-        <div className="flex items-center translate-y-[-170%] sm:translate-y-[-0%]">
+        <div className="flex items-center translate-y-[-60%] sm:translate-y-[-0%]">
           <a
             href="https://drive.google.com/file/d/16r18tc8RhGEiQoOGTTFvgZ0g46C_oQFe/view?usp=share_link"
             target="blank"

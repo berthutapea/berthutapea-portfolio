@@ -52,15 +52,14 @@ const Testimonial = () => {
     ],
   };
   return (
-    <div className="parent py-12"
-      style={{ backgroundColor: "#313131" }}>
+    <div className="py-12 parent">
       <motion.div
         className="mb-8"
         initial="hidden"
         animate={viewDiv && "visible"}
         variants={headingAnimation}
       >
-        <h3 className="text-neutral text-center">What My Clients Say</h3>
+        <h3 className="text-center text-neutral">What My Clients Say</h3>
         <h1 className="text-4xl font-semibold text-center text-primary">
           Testimonials
         </h1>
@@ -77,21 +76,22 @@ const Testimonial = () => {
           {Reviews.map((review) => (
             <div key={review.id} className="mt-6">
               <div
-                className="mx-4 rounded-lg shadow-xl single-blog cursor-pointer border-2 border-primary pt-6 flex flex-col justify-between h-[300px] bg-accent"
+                className="mx-4 rounded-lg shadow-xl single-blog cursor-pointer border-2 border-primary pt-6 flex flex-col justify-between h-[300px]"
+                style={{ backgroundColor: "#313131" }}
               >
                 <div className="px-6">
-                  <FaQuoteLeft className="text-6xl text-primary mb-4"></FaQuoteLeft>
+                  <FaQuoteLeft className="mb-4 text-6xl text-primary"></FaQuoteLeft>
                   <h2 className="text-center">{review.description}</h2>
                 </div>
-                <div className="bg-primary mt-12 flex justify-end px-6 py-2 rounded-b">
-                  <div className="text-right mr-4 text-gray-200">
+                <div className="flex justify-end px-6 py-2 mt-12 rounded-b bg-primary">
+                  <div className="mr-4 text-right text-gray-200">
                     <h2 className="font-medium leading-none">{review.name}</h2>
                     <p className="text-xs leading-none">{review.bio}</p>
                   </div>
                   <img
                     src={review.img}
                     alt="client"
-                    className="inline-block w-16 h-16 rounded-full bg-white -mt-10"
+                    className="inline-block w-16 h-16 -mt-10 bg-white rounded-full"
                   />
                 </div>
               </div>
