@@ -53,10 +53,9 @@ This project was created using the following technologies.
 
  ##  Screenshots 
  
-
-![img-1](https://user-images.githubusercontent.com/111676859/235824169-aa9fe720-def3-4a5a-8474-0b568a71d348.png)
+![img-1](https://github.com/berthutapea/berthutapea-portfolio/assets/111676859/825edab2-ff3b-4c24-8a99-7bc2527bb758)
 ---- -
-![img-2](https://user-images.githubusercontent.com/111676859/235824164-69721004-bea5-45eb-90be-38849fcdec4c.png)
+![img-2](https://github.com/berthutapea/berthutapea-portfolio/assets/111676859/b5ed935c-cc42-4d23-a2c7-765e90f198f1)
 --- - 
 ![img-3](https://user-images.githubusercontent.com/111676859/235824165-95c1e6b6-f3df-426e-816a-8c80a91d352d.png)
 --- - 
