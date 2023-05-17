@@ -30,7 +30,7 @@ const Items = [
       "Email JS",
       "Framer Motion",
     ],
-    title: "MSN PRODUCTION",
+    title: "Msn Production",
     description:
       "PT. MULIA SEJATI NUSANTARA Established on June 24, 2019, a limited liability company engaged in supplier & contractor services. Then on January 22 2022 PT. MULIA SEJATI NUSANTARA Opening a new business branch in the Technology Sector which includes Website Creation, Mobile Applications, Branding, Creative Content, Digital Marketing & Advertising. This branch is called Mulia Sejati Nusantara Production or in short MSN PRODUCTION.",
     category: "business",
@@ -85,7 +85,7 @@ const Items = [
       "Slugify",
       "Cors",
     ],
-    title: "MERN BLOG",
+    title: "Mern Blog",
     description:
       "Fullstack open source blogging application made with MongoDB, Express, React & Nodejs (MERN)",
     category: "personal",
@@ -146,7 +146,7 @@ const Items = [
       "MongoDB",
       "TMDb API",
     ],
-    title: "Bertflix",
+    title: "BertFlix",
     description:
       "Fullstack open source movie application made with MongoDB, Express, React & Nodejs (MERN)",
     category: "personal",
@@ -227,6 +227,47 @@ const Items = [
   },
   {
     id: 5,
+    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1683869747/Blog%20Portfolio%20Gilbert/Project/mern-student-management-system/img-1_yhedpu.png",
+    img: [
+      "https://res.cloudinary.com/du541igfh/image/upload/v1683869747/Blog%20Portfolio%20Gilbert/Project/mern-student-management-system/img-1_yhedpu.png",
+      "https://res.cloudinary.com/du541igfh/image/upload/v1683869747/Blog%20Portfolio%20Gilbert/Project/mern-student-management-system/img-2_uktrxk.png",
+      "https://res.cloudinary.com/du541igfh/image/upload/v1683869747/Blog%20Portfolio%20Gilbert/Project/mern-student-management-system/img-3_s1js9i.png",
+      "https://res.cloudinary.com/du541igfh/image/upload/v1683869747/Blog%20Portfolio%20Gilbert/Project/mern-student-management-system/img-4_sb9ga6.png",
+      "https://res.cloudinary.com/du541igfh/image/upload/v1683869748/Blog%20Portfolio%20Gilbert/Project/mern-student-management-system/img-5_wrxlr7.png",
+    ],
+    features: [
+      "Add Student",
+      "Edit Student",
+      "Remove Student",
+      "No Student Page",
+      "Responsive Design",
+      "404 Page and many more",
+    ],
+    technologies: [
+      "React",
+      "React Hooks",
+      "React Router Dom",
+      "Axios",
+      "Bootstrap",
+      "React Icons",
+      "Sweet Alert2",
+      "Node JS",
+      "Express JS",
+      "Cors",
+      "Mongoose",
+      "Dotenv",
+      "Nodemon",
+      "MongoDB",
+    ],
+    title: "Student Management System",
+    description:
+      "Fullstack open source student management system application made with MongoDB, Express, React & Nodejs (MERN)",
+    category: "business",
+    liveLink: "https://sttiss.vercel.app/",
+    codeLink: "https://github.com/berthutapea/mern-student-management-system",
+  },
+  {
+    id: 6,
     mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1682964283/Blog%20Portfolio%20Gilbert/Project/mario-jump-game/img-2_iwduig.png",
     img: [
       "https://res.cloudinary.com/du541igfh/image/upload/v1682964283/Blog%20Portfolio%20Gilbert/Project/mario-jump-game/img-1_gpiiro.png",
@@ -256,7 +297,7 @@ const Items = [
     codeLink: "https://github.com/berthutapea/mario-jump-game",
   },
   {
-    id: 6,
+    id: 7,
     mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1682944695/Blog%20Portfolio%20Gilbert/Project/bert-quiz/img-3_t6uxoj.png",
     img: [
       "https://res.cloudinary.com/du541igfh/image/upload/v1682944091/Blog%20Portfolio%20Gilbert/Project/bert-quiz/img-1_gqero4.png",
@@ -292,7 +333,7 @@ const Items = [
     codeLink: "https://github.com/berthutapea/react-quiz",
   },
   {
-    id: 7,
+    id: 8,
     mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
     img: [
       "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
