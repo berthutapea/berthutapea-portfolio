@@ -144,7 +144,7 @@ const Items = [
       "Express Validator",
       "Nodemon",
       "MongoDB",
-      "TMDb API",
+      "TMDB API",
     ],
     title: "BertFlix",
     description:
