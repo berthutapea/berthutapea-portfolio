@@ -103,7 +103,7 @@ const About = () => {
                 <span className="mr-2 text-primary">Address : </span>Karawang, Jawa Barat, Indonesia
               </h2>
               <a
-                href="https://drive.google.com/file/d/16r18tc8RhGEiQoOGTTFvgZ0g46C_oQFe/view?usp=share_link"
+                href="https://drive.google.com/file/d/19rnbukAhf9oPhadMhsvI3xnWF6FIYeMT/view?usp=share_link"
                 target="blank"
               >
                 <div className="flex justify-center md:justify-start translate-y-[60%] sm:translate-y-[-0%]">
